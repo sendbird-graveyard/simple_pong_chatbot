@@ -15,6 +15,7 @@ PARAM_MESSAGE = 'message'
 PARAM_MESSAGE_TEXT = 'text'
 
 HTTP_VALID_RESPONSE = json.dumps({'success': True}), 200, {'ContentType': 'application/json'}
+
 @bot_api.route('/', methods=['GET'])
 def get_request():
   return HTTP_VALID_RESPONSE

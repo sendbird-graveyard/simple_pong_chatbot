@@ -1,3 +1,3 @@
-host = "https://api.sendbird.com/v3"
-bot_id = "pong_bot"
-token = "8c5295dcaab0680c5a2ef186dc2192d8e065277f"
+host = "https://api-<Replace with your APP ID>.sendbird.com/v3"
+bot_id = "<Replace with your bot id"
+api_token = "<Replace with your API Token>"

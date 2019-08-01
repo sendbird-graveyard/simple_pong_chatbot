@@ -34,4 +34,4 @@ def send_message_to_channel(message, channel_url):
   :param channel_url: url of channel to send
   """
   request_to_sb(method='POST', endpoint=ENDPOINT_SEND_MESSAGE,
-                data={'channel_url': channel_url, 'message': message}, token=token)
+                data={'channel_url': channel_url, 'message': message}, token=api_token)

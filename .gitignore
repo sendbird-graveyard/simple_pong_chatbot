@@ -5,7 +5,8 @@ venv/
 .idea/
 # vim
 *.swp
-
+*.git
+*.env
 # ignore log files
 logs/*.log*
 *.log.*
